@@ -1,0 +1,56 @@
+PODS:
+  - MBProgressHUD (1.2.0)
+  - RxCocoa (6.2.0):
+    - RxRelay (= 6.2.0)
+    - RxSwift (= 6.2.0)
+  - RxRelay (6.2.0):
+    - RxSwift (= 6.2.0)
+  - RxSwift (6.2.0)
+  - TinyConstraints (4.0.1)
+  - VFCabbage (0.2)
+  - VIPlayer (0.1)
+
+DEPENDENCIES:
+  - MBProgressHUD
+  - RxCocoa
+  - RxSwift
+  - TinyConstraints
+  - VFCabbage (from `https://github.com/VideoFlint/Cabbage.git`, commit `aa95b17`)
+  - VIPlayer (from `https://github.com/VideoFlint/VIPlayer.git`, commit `7b49099`)
+
+SPEC REPOS:
+  trunk:
+    - MBProgressHUD
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - TinyConstraints
+
+EXTERNAL SOURCES:
+  VFCabbage:
+    :commit: aa95b17
+    :git: https://github.com/VideoFlint/Cabbage.git
+  VIPlayer:
+    :commit: 7b49099
+    :git: https://github.com/VideoFlint/VIPlayer.git
+
+CHECKOUT OPTIONS:
+  VFCabbage:
+    :commit: aa95b17
+    :git: https://github.com/VideoFlint/Cabbage.git
+  VIPlayer:
+    :commit: 7b49099
+    :git: https://github.com/VideoFlint/VIPlayer.git
+
+SPEC CHECKSUMS:
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  RxCocoa: 4baf94bb35f2c0ab31bc0cb9f1900155f646ba42
+  RxRelay: e72dbfd157807478401ef1982e1c61c945c94b2f
+  RxSwift: d356ab7bee873611322f134c5f9ef379fa183d8f
+  TinyConstraints: 8dd91295e56797648c7bc335dd20e1d91ec4c192
+  VFCabbage: c6e2816fe59123f65bd10855ac0c42b509fd7a20
+  VIPlayer: cd027a98164c11c5eec3175e001c3fcddbfb7963
+
+PODFILE CHECKSUM: 72bb007d1e0cae30eac5aad6f5b763888b30ac41
+
+COCOAPODS: 1.10.1
